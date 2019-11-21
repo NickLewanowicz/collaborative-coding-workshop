@@ -1,0 +1,16 @@
+{
+  "name": "coding-workshop-mdx-deck",
+  "version": "1.0.0",
+  "description": "Coding Workshop MDX Deck",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Lewanowicz",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^3.0.13"
+  }
+}

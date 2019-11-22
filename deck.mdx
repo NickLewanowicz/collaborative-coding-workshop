@@ -53,6 +53,92 @@ and transfer of learning to new contexts.
 
 ---
 
+## Problems
+
+1. Two Sum
+2. Valid Parentheses
+3. Trapping Rain Water
+4. Median Two Sorted Arrays
+5. Linked List Deep Copy
+
+
+---
+
+### Two Sum
+
+> Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+```
+nums = [2, 7, 11, 15], target = 9,
+
+return [0, 1].
+```
+
+---
+
+### Valid Parentheses
+
+> Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+```
+Input: "()[]{}" Output: true
+
+Input: "(]" Output: false
+```
+
+---
+
+### Trapping Rain Water
+
+> Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+
+```
+Input: [0,1,0,2,1,0,1,3,2,1,2,1]
+Output: 6
+```
+
+<img style={{height: 400}} src='https://assets.leetcode.com/uploads/2018/10/22/rainwatertrap.png' />
+
+---
+
+### Median of Two Sorted Arrays
+
+> Find the median of the two sorted arrays. 
+
+```
+nums1 = [1, 2] nums2 = [3, 4]
+
+The median is (2 + 3)/2 = 2.5
+
+-----------------------------
+
+nums1 = [1, 3] nums2 = [2, 4]
+
+The median is (2 + 3)/2 = 2.5
+```
+
+---
+
+### Linked List Deep Copy (Copy List with Random Pointer)
+
+> A linked list is given such that each node contains an additional random pointer which could point to any node in the list or null. Return a deep copy of the list.
+
+```
+Input/output: 
+    {
+        "$id":"1",
+        "next":{
+            "$id":"2",
+            "next":null,
+            "random":{
+                "$ref":"2"
+            },
+            "val":2
+        },
+        "random":{"$ref":"2"},
+        "val":1
+    }
+```
 
 ---
 
